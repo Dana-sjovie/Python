@@ -1,2 +1,2 @@
-# Python
-rock paper scissors game developed using Python 
+# Python Projects
+Python code used to develop games which showcase my skills using Python 
