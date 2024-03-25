@@ -1,0 +1,30 @@
+# Here i define a simple calculator class and def my function
+class Calculator:
+    def add(self, a, b):
+        return a + b
+
+    def subtract(self, a, b):
+        return a - b
+
+    def multiply(self, a, b):
+        return a * b
+
+    def divide(self, a, b):
+        if b == 0:
+            raise ValueError("Cannot divide by zero")
+        return a / b
+
+#calculator created 
+calc = Calculator()
+
+# Calculations in action
+addition = calc.add(10, 5)
+subtraction = calc.subtract(10, 5)
+multiplication = calc.multiply(10, 5)
+division = calc.divide(10, 5)
+
+# Show the results
+print(f"Addition: 10 + 5 = {addition}")
+print(f"Subtraction: 10 - 5 = {subtraction}")
+print(f"Multiplication: 10 * 5 = {multiplication}")
+print(f"Division: 10 / 5 = {division}")
