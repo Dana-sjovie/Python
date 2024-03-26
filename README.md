@@ -1,2 +1,7 @@
 # Python Projects
-All Python code has been saved under the game in which it is and all games were developed to showcase my skills using Python 
+
+This is where all my Python project are demonstrateed which showsoff my coding skills and knowledge.
+
+## Description
+
+This projects below several Python codes  perform various tasks. 
